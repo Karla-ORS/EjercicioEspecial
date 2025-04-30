@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", () => {
   const loadButton = document.querySelector("button.btn.btn-primary");
   const cards = document.querySelectorAll(".card");
 
@@ -38,4 +37,3 @@ document.addEventListener("DOMContentLoaded", () => {
         console.error("Error al cargar productos:", error);
       });
   });
-});
